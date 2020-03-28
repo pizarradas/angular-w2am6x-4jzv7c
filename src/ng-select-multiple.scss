@@ -1,0 +1,67 @@
+/*================================================*/
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value  {
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  border-radius: 0;
+  color: #FFF;
+  background-color: #000;
+
+}
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value {
+
+  font-size: 14px;
+  line-height: 14px;
+
+}
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-label {
+  vertical-align: middle;
+}
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-icon.left {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+    font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-right-color: #FFF;
+}
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .orange-cms .ng-value-icon.left:hover,
+.orange-cms .ng-select.ng-select-multiple .ng-select-container .ng-value-container .ng-value .ng-value-icon.left:focus {
+  color: #000;
+  background-color: #FFF;
+}
+
+
+.orange-cms .ng-value-icon {
+
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+
+}
+.orange-cms .ng-value-label {
+
+  font-size: 14px;
+  line-height: 16px;
+
+}
+/*================================================*/
+
+.ng {
+
+  &-select {
+    border: 1px solid red;
+  }
+
+}
+
+.orange-cms .ng-select {
+  border: 1px solid blue !important;
+}

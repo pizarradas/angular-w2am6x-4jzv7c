@@ -1,0 +1,88 @@
+/*================================================*/
+.orange-cms .ng-dropdown-panel {
+
+    font-family: 'Helvetica--Neue--75', Arial, sans-serif;
+
+}
+
+.orange-cms .ng-dropdown-panel.ng-select-bottom {
+
+  border-style: solid;
+  border-width: 2px 2px 2px 2px; 
+  border-color: #000;
+  border-radius: 0;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-optgroup {
+
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #000;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-option {
+
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center; 
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500; 
+  color: #000;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-option:hover {
+
+  background-color: #EEEEEE;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-option input {
+
+  border-style: solid;
+  border-width: 2px;
+  border-color: #CCC;  
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected input {
+
+  border-color: #FF7900;
+  background-color: #FF7900;
+
+}
+
+.orange-cms .ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected :before {
+
+  content: "";
+  position: absolute;
+  left: 25px;
+  top: 0;
+  bottom: 0;
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: url("https://svgshare.com/i/JUk.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 15px 12px;
+
+}
+
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected,
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option.ng-option-selected.ng-option-marked {
+
+  background-color: #EEEEEE;
+
+}
+/*================================================*/

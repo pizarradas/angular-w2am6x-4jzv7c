@@ -1,0 +1,10 @@
+@import "~@ng-select/ng-select/themes/default.theme.css";
+
+@import './src/orange-core.scss';
+
+@import './src/ng-select.scss';
+
+@import './src/ng-select-multiple.scss';
+
+@import './src/ng-dropdown-panel.scss';
+
